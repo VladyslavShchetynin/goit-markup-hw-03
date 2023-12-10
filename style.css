@@ -10,9 +10,24 @@ body {
 
 /* Header section */
 .header {
+  border-bottom: 1px solid #e7e9fc;
 }
+
+.container {
+  display: flex;
+}
+
+.header-container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .header-nav {
+  display: flex;
+  align-items: center;
 }
+
 .header-logo-link {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -30,8 +45,11 @@ body {
   text-transform: uppercase;
 }
 .header-list {
+  display: flex;
+  /* gap: 40px; */
 }
 .header-item {
+  margin-right: 40px;
 }
 
 .header-link:hover {
@@ -46,6 +64,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
 /* Contact section */
@@ -53,9 +72,18 @@ body {
   font-style: normal;
 }
 .contacts-list {
+  display: flex;
+  /* gap: 40px; */
 }
+
 .contacts-item {
+  margin-right: 40px;
 }
+
+.contacts-item-tel {
+  margin-right: 0;
+}
+
 .contacts-link {
   color: #434455;
   font-size: 16px;
