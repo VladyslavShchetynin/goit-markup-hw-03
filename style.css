@@ -156,6 +156,7 @@ img {
 }
 /* Features section */
 .features {
+  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -166,10 +167,9 @@ img {
 }
 .features-list {
   display: flex;
-  padding: 120px 0;
 }
 .features-item {
-  margin-right: 24px;
+  gap: 24px;
   width: calc((100% - 72px) / 4);
 }
 .features-subtitle {
