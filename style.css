@@ -47,10 +47,10 @@ body {
 }
 .header-list {
   display: flex;
-  /* gap: 40px; */
+  gap: 40px;
 }
 .header-item {
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 .header-item-contact {
@@ -80,11 +80,11 @@ body {
 }
 .contacts-list {
   display: flex;
-  /* gap: 40px; */
+  gap: 40px;
 }
 
 .contacts-item {
-  margin-right: 40px;
+  /* margin-right: 40px;   */
 }
 
 .contacts-item-tel {
@@ -136,7 +136,7 @@ img {
   letter-spacing: 0.64px;
   cursor: pointer;
   display: block;
-  max-width: 169px;
+  min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
