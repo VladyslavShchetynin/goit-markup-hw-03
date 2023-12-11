@@ -157,11 +157,20 @@ img {
 /* Features section */
 .features {
 }
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
 .features-title {
 }
 .features-list {
+  display: flex;
+  padding: 120px 0;
 }
 .features-item {
+  margin-right: 24px;
+  width: calc((100% - 72px) / 4);
 }
 .features-subtitle {
   color: #2e2f42;
@@ -169,6 +178,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .features-item {
 }
