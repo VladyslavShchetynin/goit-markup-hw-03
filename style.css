@@ -105,7 +105,7 @@ body {
   color: #404bbf;
 }
 
-/* Hero */
+/* Hero section 1 */
 
 /* IMG */
 img {
@@ -154,7 +154,8 @@ img {
 .hero-button:focus {
   background-color: #404bbf;
 }
-/* Features section */
+
+/* Features section 2 */
 .features {
   padding: 120px 0;
 }
@@ -215,16 +216,20 @@ img {
 .features-reviews {
 }
 
-/* Our team */
+/* Team section 3 */
 .team-section {
   background: #f4f4fd;
   padding: 120px 0;
 }
 .team-list {
+  display: flex;
+  /* gap: 24px; */
 }
 .team-item {
   justify-content: center;
   background: #fff;
+  margin-right: 24px;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-titel {
   color: #2e2f42;
@@ -238,19 +243,28 @@ img {
 }
 .team-photo {
 }
+
+.team-container {
+  padding: 32px 0;
+}
+
 .team-subtitel {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  text-align: center;
+  margin-bottom: 8px;
 }
+
 .team-text {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  text-align: center;
 }
 
 /* Portfolio */
