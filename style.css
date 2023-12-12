@@ -331,6 +331,7 @@ img {
 }
 .footer-link {
   font-family: "Raleway", sans-serif;
+  display: inline-block;
   font-size: 18px;
   justify-content: center;
   color: #4d5ae5;
@@ -338,7 +339,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
